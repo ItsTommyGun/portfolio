@@ -10,15 +10,13 @@ import Footer from '../components/Footer'
 import Section from '../components/Section'
 
 export default function Home() {
-  console.log("Ja servus! Schön, dass dich der Code interessiert!");
-  console.log("Hier der Stack: GatsbyJS, React, styled-components");
 
   return (
     <div className='main'>
       <Welcome delay='300' />
       <div className='container mx-auto px-10 xl:p-0'>
         
-        <div className='lg:text-2xl text-lg mt-12 md:mt-16 mb-4 w-3/4 lg:w-full xl:my-20 xl:mt-32 lg:px-6 leading-loose' style={{color: 'rgb(0, 20, 125)'}}>
+        <div className='lg:text-2xl text-lg mt-12 md:mt-16 mb-4 w-3/4 lg:w-full xl:my-20 xl:mt-32 lg:px-6 leading-loose text-blue-special'>
             Ich bin immer auf der Suche nach spannenden Projekten, interessanten Herausforderungen und interdisziplinären Teams, mit denen es Spaß macht Projekte zu verwirklichen.
         </div>
       
@@ -27,7 +25,8 @@ export default function Home() {
             <p>
               Seit über 3 Jahren als Festangestellter in einer Agentur ist mir neben den Projekten auch das Zwischenmenschliche wichtig: ich leite und organisiere Sportgruppen, bin Teil einer sozial engagierten Truppe (Planung verschiedener Spendenaktionen) oder veranstalte regelmäßig (Video-)Spiel-Abende mit den Kollegen.<br /> <br />
 
-              Abseits der Arbeit bin ich für ein Bier am Abend genauso wie für einen Brunch am Sonntag Morgen zu haben. Zudem reise ich gerne. Nach mehreren Zielen in Nordamerika, Lateinamerika und Europa wird hoffentlich auch bald Asien - in erster Linie Japan - dran sein. Konnichi wa!</p>
+              Abseits der Arbeit bin ich für ein Bier am Abend genauso wie für einen Brunch am Sonntag Morgen zu haben. Zudem reise ich gerne. Nach mehreren Zielen in Nordamerika, Lateinamerika und Europa wird hoffentlich auch bald Asien - in erster Linie Japan - dran sein. Konnichi wa!
+            </p>
           </div>
           <Slogan text='Halb Mensch' animationStartFrom='right' delay='200' />
           <Slogan text='Halb Maschine' animationStartFrom='left' delay='200' />  
@@ -50,7 +49,7 @@ export default function Home() {
           <TextContent headline='Projekte'>
             Im Folgenden zeige ich eine Auswahl meiner aktuelleren Projekte. Diverse Projekte unterliegen einer Verschwiegenheitspflicht und können daher nur angeteasert werden.
           </TextContent>
-          <div className="mb-20">
+          
             <Project title='Interaktive App für Messe Exponat' types={['Entwicklung']} stack={['React', 'Electron', 'HTML / SASS']} customer='Bosch' image='/images/projects/bosch-exhibit.png'>
               Diese App zeigt Messebesuchern Informationen zu diversen Antriebsarten der Zukunft. Die Besonderheit der App ist die Steuerung über Tokens: auf einem liegenden 55" Touchscreen werden sie als Steuerungsobjekte platziert. Ein Token wird dabei ausschließlich für die Menüsteuerung genutzt und sechs weitere Tokens dienen zur Navigation durch spezifische Inhalte.
             </Project>
@@ -67,10 +66,10 @@ export default function Home() {
               Zurzeit arbeite ich mit Kollegen an einer neuen Component Library für unseren Kunden TRUMPF. Hier wird auf StencilJS gesetzt, um einerseits eine hohe Codequalität zu erreichen (u.a. durch Typescript, Jest) und andererseits eine zukunftssichere Codebasis dank Web Components zu erstellen.
             </Project>
 
-            <Project title='Portfolio Seite' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components', 'TailwindCSS']} customer='-' image='/images/projects/portfolio.png'>
+            <Project title='Portfolio Website' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components', 'TailwindCSS']} customer='-' image='/images/projects/portfolio.png' github='https://github.com/ItsTommyGun/portfolio'>
               Die erste Version meiner Portfolio Seite. Gebaut auf Basis von GatsbyJS mit React, erweitert mit Styled Components und TailwindCSS. Deployment über Github und Netlify.
             </Project>
-          </div>
+
         </Section>
 
         <Section>

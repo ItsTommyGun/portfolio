@@ -15,6 +15,10 @@ strong {
     color: rgb(0, 20, 125);
 }
 
+.text-blue-special {
+    color: rgb(0, 20, 125);
+}
+
 .muli,
 h1,
 h2,
@@ -31,11 +35,6 @@ a {
     transition: border .3s ease 0s;
     border-bottom: 2px solid transparent;
 }
-
-/*.bottom-line {
-    background: black;
-    height: .03em;
-}*/
 
 .intro-wrap {
     align-items: baseline;
