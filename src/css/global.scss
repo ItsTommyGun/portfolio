@@ -1,0 +1,132 @@
+@import 'fonts';
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+* {
+    font-family: "Muli", sans-serif;
+}
+
+strong {
+    font-family: "Muli-Bold", sans-serif;
+    color: rgb(0, 20, 125);
+}
+
+.muli,
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Muli", sans-serif;
+}
+
+p {
+    color: dimgray;
+}
+
+a {
+    transition: border .3s ease 0s;
+    border-bottom: 2px solid transparent;
+}
+
+/*.bottom-line {
+    background: black;
+    height: .03em;
+}*/
+
+.intro-wrap {
+    align-items: baseline;
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn .5s ease-in-out forwards;
+
+    &--delay {
+        &-100 {
+            animation-delay: 100ms;
+        }
+        &-200 {
+            animation-delay: 200ms;
+        }
+        &-300 {
+            animation-delay: 300ms;
+        }
+        &-400 {
+            animation-delay: 400ms;
+        }
+        &-500 {
+            animation-delay: 500ms;
+        }
+        &-600 {
+            animation-delay: 600ms;
+        }
+        &-700 {
+            animation-delay: 700ms;
+        }
+        &-800 {
+            animation-delay: 800ms;
+        }
+        &-1000 {
+            animation-delay: 1000ms;
+        }
+    }
+
+    &--from-bottom {
+        transform: translateY(30px);
+    }
+
+    &--from-left {
+        transform: translateX(-30px);
+    }
+
+    &--from-right {
+        transform: translateX(30px);
+    }
+}
+
+.text-gradient {
+    background: linear-gradient(to right, rgb(0, 20, 125) 0, rgb(74, 116, 81) 28%, rgb(180, 140, 100) 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-icons svg {
+    width: 25px;
+    height: 25px;
+
+    @media screen and (min-width: 768px) {
+        width: 40px;
+        height: 40px;   
+    }
+}
+
+.modal-content {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0,0,0, .5);
+}
+
+.ReactModal__Body--open .main {
+    filter: blur(3px);
+}
