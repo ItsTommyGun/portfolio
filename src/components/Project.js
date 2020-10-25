@@ -2,20 +2,27 @@ import React, { useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import animateInView from '../helpers/helpers'
 
+import Github from '../../static/icons/github.svg'
+
 const Case = styled.div`
-    a:hover {
+    .border-bottom-hover:hover {
         border-bottom: 2px solid #dd6b20;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
     }
 `;
 
-export default function Project({title, types, stack, customer, children, image, textRight, link, animationStartFrom}) {
+export default function Project({title, types, stack, customer, children, image, textRight, link, animationStartFrom, github}) {
     const inputEl = useRef(null);
     const animationDirection = animateInView(inputEl, animationStartFrom, '.2');    
 
     return (
         <Case className='my-32 lg:flex flex-1' ref={inputEl}>
             <div className={`lg:w-1/2 ${textRight ? 'order-2' : ''} opacity-0 fadeIn--from-${textRight ? 'right': 'left'}`}>
-                <div className='text-2xl muli leading-relaxed xl:leading-none'>{title}</div>
+                <div className='text-2xl muli leading-relaxed xl:leading-none flex justify-between'>{title} {github && <a href={github} target='_blank' className='hover:no-underline'><Github /></a>}</div>
                 <div className='flex flex-col md:flex-row mt-8 mb-4 text-sm'>
                     <div className='md:w-1/3'><strong>ROLLE</strong></div>
 
@@ -52,7 +59,7 @@ export default function Project({title, types, stack, customer, children, image,
                 </div>
                 {link &&
                     <div className='my-8'>
-                        <a href={link} target='_blank' className='text-sm text-orange-600'><strong>ZUR WEBSITE</strong> <span className='text-lg'>›</span></a>
+                        <a href={link} target='_blank' className='text-sm text-orange-600 border-bottom-hover'>ZUR WEBSITE <span className='text-lg'>›</span></a>
                     </div>
                 }
             </div>

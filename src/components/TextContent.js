@@ -9,7 +9,6 @@ const TextBlock = styled.div`
 `;
 
 const Title = styled.h2`
-    width: 100%;
     letter-spacing: 0.03em;
     margin-top: .5em;
     margin-bottom: .5em;
@@ -18,7 +17,6 @@ const Title = styled.h2`
 const Paragraph = styled.p`
     margin: 50px 0px;
     color: rgb(105, 105, 105);
-    width: 100%;
     letter-spacing: 0.03em;
 `;
 

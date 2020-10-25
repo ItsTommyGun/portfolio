@@ -12,6 +12,9 @@ export default function Contact({ animationStartFrom }) {
               <div className='xl:text-5xl text-5xl leading-tight text-gradient'>
                 Lust auf 'nen Kaffee?
               </div>
+                <div className={`lg:text-4xl text-2xl leading-tight lg:leading-normal mt-4 lg:mt-12 fadeIn fadeIn--from-right`}>
+                  Ich freu mich auf ein nettes Gespräch!
+                </div>
               <ContactIcons />
           </div>
           <div className='xl:w-2/3 xl:ml-16 opacity-0 fadeIn--from-right fadeIn--delay-delay-300'>
