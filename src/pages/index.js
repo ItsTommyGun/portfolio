@@ -24,16 +24,17 @@ export default function Home() {
       
         <Section classes='flex flex-wrap'>
           <div className='lg:w-1/2 text-md py-6 lg:p-6 leading-8'>
-            <p>Außerhalb der Projekte investiere ich gerne Zeit in <strong>Teambuilding</strong> oder ähnliche Dinge: aktuell leite und organisiere ich Sportgruppen, bin Teil einer sozial engagierten Truppe (Planung verschiedenster Spendenaktionen) oder veranstalte regelmäßig (Video-)Spiel-Abende mit den Kollegen.<br /> <br />
+            <p>
+              Seit über 3 Jahren als Festangestellter in einer Agentur ist mir neben den Projekten auch das Zwischenmenschliche wichtig: ich leite und organisiere Sportgruppen, bin Teil einer sozial engagierten Truppe (Planung verschiedener Spendenaktionen) oder veranstalte regelmäßig (Video-)Spiel-Abende mit den Kollegen.<br /> <br />
 
-            Abseits der Arbeit bin ich genauso für ein Bier am Abend als auch für ein Brunch am Sonntag Morgen zu haben. Zudem reise ich gerne. Nach mehreren Zielen in Nordamerika, Lateinamerika und Europa wird hoffentlich auch bald Asien - in erster Linie Japan - dran sein. Konnichi wa!</p>
+              Abseits der Arbeit bin ich für ein Bier am Abend genauso wie für einen Brunch am Sonntag Morgen zu haben. Zudem reise ich gerne. Nach mehreren Zielen in Nordamerika, Lateinamerika und Europa wird hoffentlich auch bald Asien - in erster Linie Japan - dran sein. Konnichi wa!</p>
           </div>
           <Slogan text='Halb Mensch' animationStartFrom='right' delay='200' />
           <Slogan text='Halb Maschine' animationStartFrom='left' delay='200' />  
           <div className='lg:w-1/2 lg:text-4xltext-md py-6 lg:p-6 leading-8'>
-            <p>Nach meiner Ausbildung zum <strong>Mediengestalter</strong> und dem <strong>Dualen Studium</strong> im Studiengang Onlinemedien an der DHBW Mosbach konnte ich bereits über <strong>3,5 Jahre Berufserfahrung</strong> sammeln und bin aktuell in Stuttgart als <strong>Frontend Developer</strong> tätig. Ich baue Webseiten oder entwickle deren Komponenten auf Basis von UX Konzepten, Photoshop- und Sketchvorlagen.<br /><br />
-            Ich habe bereits an unterschiedlichen Projekten für unter anderem Bosch, TRUMPF, Porsche oder Weleda gearbeitet. Außerdem bin ich <strong>technischer Ansprechpartner</strong> innerhalb eines Projektes die Schnittstelle zwischen Projektmanager und Development.<br /><br />
-            
+            <p>
+              Nach meiner Ausbildung zum <strong>Mediengestalter</strong> und dem <strong>Dualen Studium</strong> im Studiengang Onlinemedien an der DHBW Mosbach konnte ich bereits über <strong>3,5 Jahre Berufserfahrung</strong> sammeln und bin aktuell in Stuttgart als <strong>Frontend Developer</strong> tätig. Ich baue Webseiten oder entwickle deren Komponenten auf Basis von UX Konzepten, Photoshop- und Sketchvorlagen.<br /><br />
+              Ich habe bereits an unterschiedlichen Projekten für unter anderem Bosch, TRUMPF, Porsche oder Weleda gearbeitet. Außerdem bin ich <strong>technischer Ansprechpartner</strong> innerhalb eines Projektes die Schnittstelle zwischen Projektmanager und Development.
             </p>
           </div>
         </Section>
@@ -49,7 +50,6 @@ export default function Home() {
           <TextContent headline='Projekte'>
             Im Folgenden zeige ich eine Auswahl meiner aktuelleren Projekte. Diverse Projekte unterliegen einer Verschwiegenheitspflicht und können daher nur angeteasert werden.
           </TextContent>
-
           <div className="mb-20">
             <Project title='Interaktive App für Messe Exponat' types={['Entwicklung']} stack={['React', 'Electron', 'HTML / SASS']} customer='Bosch' image='/images/projects/bosch-exhibit.png'>
               Diese App zeigt Messebesuchern Informationen zu diversen Antriebsarten der Zukunft. Die Besonderheit der App ist die Steuerung über Tokens: auf einem liegenden 55" Touchscreen werden sie als Steuerungsobjekte platziert. Ein Token wird dabei ausschließlich für die Menüsteuerung genutzt und sechs weitere Tokens dienen zur Navigation durch spezifische Inhalte.
@@ -63,24 +63,28 @@ export default function Home() {
               Als privates Projekt habe ich für einen Freund die Speisekarte seines Restaurants im Back- sowie Frontend umgesetzt. Da die Auswahl der Speisen sich täglich ändert können im Backend vordefinierte Gerichte de- oder aktiviert werden. Zusätzlich werden verschiedene Sprachen unterstützt.
             </Project>
 
+            <Project title='Component Library mit Storybook' types={['Entwicklung']} stack={['StencilJS', 'Storybook', 'Jest']} customer='TRUMPF' image='/images/projects/trumpf-story.png' textRight={true}>
+              Zurzeit arbeite ich mit Kollegen an einer neuen Component Library für unseren Kunden TRUMPF. Hier wird auf StencilJS gesetzt, um einerseits eine hohe Codequalität zu erreichen (u.a. durch Typescript, Jest) und andererseits eine zukunftssichere Codebasis dank Web Components zu erstellen.
+            </Project>
 
-            <Project title='Component Library mit Storybook' types={['Entwicklung']} stack={['TypeScript', 'Storybook', 'Jest']} customer='TRUMPF' image='/images/projects/trumpf-story.png' textRight={true}>
-              blablas
+            <Project title='Portfolio Seite' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components']} customer='-' image='/images/projects/portfolio.png'>
+              Zurzeit arbeite ich mit Kollegen an einer neuen Component Library für unseren Kunden TRUMPF. Hier wird auf StencilJS gesetzt, um einerseits eine hohe Codequalität zu erreichen (u.a. durch Typescript, Jest) und andererseits eine zukunftssichere Codebasis dank Web Components zu erstellen.
             </Project>
           </div>
         </Section>
 
         <Section>
-        <TextContent headline='Zukunft'>
-          So wichtig es auch sein mag, sich auf bestimmte Technologien zu fokussieren, so wichtig ist es auch spannende, neue Entwicklungen zu verfolgen. Hier ist eine Auswahl der Themen, die mich interessieren.
-        </TextContent>
-        <List items={['Snowpack', 'Vue3', 'Svelte', 'Firebase', 'GraphQL']} />
+          <TextContent headline='Zukunft'>
+            So wichtig es auch sein mag, sich auf bestimmte Technologien zu fokussieren, so wichtig ist es auch spannende, neue Entwicklungen zu verfolgen. Hier ist eine Auswahl der Themen, die mich interessieren.
+          </TextContent>
+          <List items={['Snowpack', 'Vue3', 'Svelte', 'Firebase', 'GraphQL']} />
         </Section>
-
       </div>
+
       <Section last='true'>
         <Contact />
       </Section>
+
       <Footer />
     </div>
   )

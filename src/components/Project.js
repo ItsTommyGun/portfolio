@@ -21,17 +21,17 @@ export default function Project({title, types, stack, customer, children, image,
 
                     <div className='md:hidden'>
                         {types.map((type) => {
-                            return <div className='pb-2' key={type}>{type}</div>
+                            return <div className='pb-0' key={type}>{type}</div>
                         })}
                     </div>
 
-                    <div className='md:w-1/3 w-1/2'><strong>STACK</strong></div>
+                    <div className='md:w-1/3 w-1/2 mt-6 md:mt-0'><strong>STACK</strong></div>
                     <div className='md:hidden'>
                         {stack.map((tech) => {
-                            return <div className='pb-2' key={tech}>{tech}</div>
+                            return <div className='pb-0' key={tech}>{tech}</div>
                         })}
                     </div>
-                    <div className='md:w-1/3 w-1/2'><strong>KUNDE</strong></div>
+                    <div className='md:w-1/3 w-1/2 mt-6 md:mt-0'><strong>KUNDE</strong></div>
                     <div className='md:hidden'>{customer}</div>
                 </div>
                 <div className='mb-8 text-sm hidden md:flex'>
@@ -56,7 +56,7 @@ export default function Project({title, types, stack, customer, children, image,
                     </div>
                 }
             </div>
-            <div className={`lg:w-1/2 lg:px-10 ${textRight ? 'order-1' : ''} opacity-0 fadeIn--from-${textRight ? 'left': 'right'}`}>
+            <div className={`lg:w-1/2 lg:px-10 mt-4 md:mt-0 ${textRight ? 'order-1' : ''} opacity-0 fadeIn--from-${textRight ? 'left': 'right'}`}>
                 <img src={image} />
             </div>
         </Case>
