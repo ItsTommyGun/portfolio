@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import styled from 'styled-components';
 import animateInView from '../helpers/helpers';
 
-const Section = styled.section`
+const TextBlock = styled.div`
     @media screen and (min-width: 1024px) {
         width: 700px;
     }
@@ -27,13 +27,13 @@ export default function TextContent({children, headline, animationStartFrom, del
     const animationDirection = animateInView(inputEl, animationStartFrom);
 
     return (
-        <Section ref={inputEl}>
+        <TextBlock ref={inputEl}>
             <Title className={`lg:text-4xl text-2xl opacity-0 fadeIn--from-${animationDirection}`}>
                 {headline}
             </Title>
             <Paragraph className={`leading-8 opacity-0 fadeIn--from-${animationDirection}`}>
                 {children}
             </Paragraph>
-        </Section>
+        </TextBlock>
     )
 }

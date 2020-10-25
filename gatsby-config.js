@@ -23,6 +23,9 @@ module.exports = {
           className: 'bg-white m-20 modal-content mx-auto p-20 w-2/3'
         },
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`
+    },
   ],
 }
