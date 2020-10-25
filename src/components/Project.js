@@ -52,7 +52,7 @@ export default function Project({title, types, stack, customer, children, image,
                 </div>
                 {link &&
                     <div className='my-8'>
-                        <a href={link} target='_blank' className='text-sm text-orange-600'><strong>ZUR WEBSITE</strong> <span className='text-lg'>›</span></a>
+                        <a href={link} target='_blank' className='text-sm text-orange-600'>ZUR WEBSITE <span className='text-lg'>›</span></a>
                     </div>
                 }
             </div>

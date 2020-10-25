@@ -67,8 +67,8 @@ export default function Home() {
               Zurzeit arbeite ich mit Kollegen an einer neuen Component Library für unseren Kunden TRUMPF. Hier wird auf StencilJS gesetzt, um einerseits eine hohe Codequalität zu erreichen (u.a. durch Typescript, Jest) und andererseits eine zukunftssichere Codebasis dank Web Components zu erstellen.
             </Project>
 
-            <Project title='Portfolio Seite' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components']} customer='-' image='/images/projects/portfolio.png'>
-              Zurzeit arbeite ich mit Kollegen an einer neuen Component Library für unseren Kunden TRUMPF. Hier wird auf StencilJS gesetzt, um einerseits eine hohe Codequalität zu erreichen (u.a. durch Typescript, Jest) und andererseits eine zukunftssichere Codebasis dank Web Components zu erstellen.
+            <Project title='Portfolio Seite' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components', 'TailwindCSS']} customer='-' image='/images/projects/portfolio.png'>
+              Die erste Version meiner Portfolio Seite. Gebaut auf Basis von GatsbyJS mit React, erweitert mit Styled Components und TailwindCSS. Deployment über Github und Netlify.
             </Project>
           </div>
         </Section>
