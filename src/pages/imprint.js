@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
-import { Link } from 'gatsby-plugin-modal-routing'
+import LinkBack from '../components/LinkBack'
 import '../css/global.scss'
 import styled from 'styled-components'
-import Close from '../../static/icons/arrow-left.svg'
 
 const Block = styled.div`
   p {
@@ -14,11 +13,7 @@ export default function Imprint() {
 
   return (
     <Block className='p-8 container mx-auto'>
-      <Link className='top-0 right-0 m-16'
-        to="/"
-      >
-        <Close className='h-6 w-6' />
-      </Link>
+      <LinkBack text='Zur Startseite' />
       <h1 className='text-3xl'>Impressum</h1>
 
       <h2 className='my-4'>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>

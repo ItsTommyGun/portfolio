@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Helmet } from "react-helmet"
 import '../css/global.scss'
 import TextContent from '../components/TextContent'
 import List from '../components/List'
@@ -13,6 +14,14 @@ export default function Home() {
 
   return (
     <div className='main overflow-x-hidden'>
+      <Helmet>
+        <html lang="de" />
+        <title>Portfolio Thomas Fischer - Webentwickler Stuttgart</title>
+        <meta charSet="utf-8" />
+        <meta description="Portfolio, website, web, developer, javascript, frontend, stuttgart, ludwigsburg, esslingen" />
+        <link rel="canonical" href="https://www.tommycodes.de" />
+      </Helmet>
+
       <Welcome delay='300' />
       <div className='container mx-auto px-10 xl:p-0'>
         
@@ -69,7 +78,6 @@ export default function Home() {
             <Project title='Portfolio Website' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components', 'TailwindCSS']} customer='-' image='/images/projects/portfolio.png' github='https://github.com/ItsTommyGun/portfolio'>
               Die erste Version meiner Portfolio Seite. Gebaut auf Basis von GatsbyJS mit React, erweitert mit Styled Components und TailwindCSS. Deployment über Github und Netlify.
             </Project>
-
         </Section>
 
         <Section>

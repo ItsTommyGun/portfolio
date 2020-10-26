@@ -12,16 +12,16 @@ export default function Contact({ text, animationStartFrom}) {
  
     return (
         <div className='leading-tight xl:leading-normal mt-12 xl:mt-24 contact-icons flex justify-evenly xl:justify-between' ref={inputEl}>
-            <a href='https://www.xing.com/profile/Thomas_Fischer693/cv' target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-200'>
+            <a href='https://www.xing.com/profile/Thomas_Fischer693/cv' rel='noreferrer' target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-200'>
                 <Xing />
                 </a>
-            <a href='https://www.linkedin.com/in/thomas-fischer-12a44687/' target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-400'>
+            <a href='https://www.linkedin.com/in/thomas-fischer-12a44687/' rel='noreferrer' target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-400'>
                 <Linked />
             </a>
-            <a href="https://stackoverflow.com/users/2151913/tommygun" target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-600'>
+            <a href="https://stackoverflow.com/users/2151913/tommygun" rel='noreferrer' target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-600'>
                 <Stack />
             </a>
-            <a href="mailto:thomasfischer1337@gmail.com" target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-800'>
+            <a href="mailto:thomasfischer1337@gmail.com" rel='noreferrer' target='_blank' className='opacity-0 fadeIn--from-bottom fadeIn--delay-800'>
                 <EMail />
             </a>
         </div>
