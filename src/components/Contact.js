@@ -18,7 +18,10 @@ export default function Contact({ animationStartFrom }) {
               <ContactIcons />
           </div>
           <div className='xl:w-2/3 xl:ml-16 opacity-0 fadeIn--from-right fadeIn--delay-delay-300'>
-              <img src='./images/THOMI-BW-19.jpg' alt='Kontakt aufnehmen - Thomas Fischer - Webentwickler aus Stuttgart' className='max-h-screen m-auto' />
+              <picture>
+                  <source srcSet="./images/THOMI-BW-19.jpg" media="(min-width: 1280px)" />
+                  <img src="./images/THOMI-BW-19-m.jpg" alt="Kontakt aufnehmen - Thomas Fischer - Webentwickler aus Stuttgart" className='max-h-screen m-auto' loading='lazy' />
+              </picture>
           </div>
         </div>
     )

@@ -78,7 +78,6 @@ export default function Home() {
             <Project title='Portfolio Website' types={['Planung', 'Entwicklung']} stack={['GatsbyJS', 'React', 'Styled Components', 'TailwindCSS']} customer='-' image='/images/projects/portfolio.png' github='https://github.com/ItsTommyGun/portfolio'>
               Die erste Version meiner Portfolio Seite. Gebaut auf Basis von GatsbyJS mit React, erweitert mit Styled Components und TailwindCSS. Deployment über Github und Netlify.
             </Project>
-
         </Section>
 
         <Section>
