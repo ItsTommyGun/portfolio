@@ -18,7 +18,7 @@ export default function Home() {
         <html lang="de" />
         <title>Portfolio Thomas Fischer - Webentwickler Stuttgart</title>
         <meta charSet="utf-8" />
-        <meta description="Portfolio, website, web, developer, javascript, frontend, stuttgart, ludwigsburg, esslingen" />
+        <meta name='description' content="Portfolio, website, web, developer, javascript, frontend, stuttgart, ludwigsburg, esslingen" />
         <link rel="canonical" href="https://www.tommycodes.de" />
       </Helmet>
 
