@@ -12,7 +12,7 @@ import Section from '../components/Section'
 export default function Home() {
 
   return (
-    <div className='main'>
+    <div className='main overflow-x-hidden'>
       <Welcome delay='300' />
       <div className='container mx-auto px-10 xl:p-0'>
         
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <Slogan text='Halb Mensch' animationStartFrom='right' delay='200' />
           <Slogan text='Halb Maschine' animationStartFrom='left' delay='200' />  
-          <div className='lg:w-1/2 lg:text-4xltext-md py-6 lg:p-6 leading-8'>
+          <div className='lg:w-1/2 text-md py-6 lg:p-6 leading-8'>
             <p>
               Nach meiner Ausbildung zum <strong>Mediengestalter</strong> und dem <strong>Dualen Studium</strong> im Studiengang Onlinemedien an der DHBW Mosbach konnte ich bereits über <strong>3,5 Jahre Berufserfahrung</strong> sammeln und bin aktuell in Stuttgart als <strong>Frontend Developer</strong> tätig. Ich baue Webseiten oder entwickle deren Komponenten auf Basis von UX Konzepten, Photoshop- und Sketchvorlagen.<br /><br />
               Ich habe bereits an unterschiedlichen Projekten für unter anderem Bosch, TRUMPF, Porsche oder Weleda gearbeitet. Außerdem bin ich <strong>technischer Ansprechpartner</strong> innerhalb eines Projektes die Schnittstelle zwischen Projektmanager und Development.
