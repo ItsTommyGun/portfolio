@@ -20,7 +20,7 @@ module.exports = {
         appElement: '#___gatsby',
         modalProps: {
           overlayClassName: 'modal-overlay',
-          className: 'bg-white m-20 modal-content mx-auto p-20 w-2/3'
+          className: 'bg-white modal-content mx-auto sm:p-20 w-4/5 sm:w-2/3'
         },
       }
     },

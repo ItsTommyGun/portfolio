@@ -22,7 +22,7 @@ export default function Project({title, types, stack, customer, children, image,
     return (
         <Case className='my-32 lg:flex flex-1' ref={inputEl}>
             <div className={`lg:w-1/2 ${textRight ? 'order-2' : ''} opacity-0 fadeIn--from-${textRight ? 'right': 'left'}`}>
-                <div className='text-2xl muli leading-relaxed xl:leading-none flex justify-between'>{title} {github && <a href={github} target='_blank' className='hover:no-underline'><Github /></a>}</div>
+                <div className='text-2xl muli leading-relaxed xl:leading-none flex justify-between'>{title} {github && <a href={github} target='_blank' className='hover:no-underline flex items-center'><Github /></a>}</div>
                 <div className='flex flex-col md:flex-row mt-8 mb-4 text-sm'>
                     <div className='md:w-1/3'><strong>ROLLE</strong></div>
 

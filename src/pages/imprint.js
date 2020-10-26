@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'gatsby-plugin-modal-routing'
 import '../css/global.scss'
 import styled from 'styled-components'
-import Close from '../../static/icons/close.svg'
+import Close from '../../static/icons/arrow-left.svg'
 
 const Block = styled.div`
   p {
@@ -13,8 +13,8 @@ const Block = styled.div`
 export default function Imprint() {
 
   return (
-    <Block className='p-8'>
-      <Link className='absolute top-0 right-0 m-16'
+    <Block className='p-8 container mx-auto'>
+      <Link className='top-0 right-0 m-16'
         to="/"
       >
         <Close className='h-6 w-6' />
