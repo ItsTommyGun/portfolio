@@ -51,7 +51,7 @@ export default function Home() {
           <TextContent headline='Fähigkeiten'>
             Durch spannende Projekte sowohl privat als auch beruflich konnte ich mir umfassendes Wissen in unterschiedlichen Bereichen des Web Developments aneignen. Diese reichen von den grundlegenden Technologien wie HTML, CSS und JavaScript bis hin zu modernen Frameworks und Libraries wie React, TypeScript oder GatsbyJS.
           </TextContent>
-          <List items={['HTML / CSS', 'JavaScript', 'ReactJS', 'ElectronJS', 'SASS / SCSS', 'TypeScript', 'GatsbyJS', 'Jest', 'Build Tools', 'Photoshop / Sketch', 'Git', 'Jira / Confluence', 'MS Teams' ]} />
+          <List items={['HTML / CSS', 'JavaScript', 'ReactJS', 'ElectronJS', 'SASS / SCSS', 'TypeScript', 'GatsbyJS', 'Firebase/Firestore', 'MySQL', 'Jest', 'Build Tools', 'Photoshop / Sketch', 'Git', 'Jira / Confluence', 'MS Teams' ]} />
         </Section>
 
         <Section>
