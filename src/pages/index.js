@@ -51,7 +51,7 @@ export default function Home() {
           <TextContent headline='Fähigkeiten'>
             Durch spannende Projekte sowohl privat als auch beruflich konnte ich mir umfassendes Wissen in unterschiedlichen Bereichen des Web Developments aneignen. Diese reichen von den grundlegenden Technologien wie HTML, CSS und JavaScript bis hin zu modernen Frameworks und Libraries wie React, TypeScript oder GatsbyJS.
           </TextContent>
-          <List items={['HTML / CSS', 'JavaScript', 'ReactJS', 'ElectronJS', 'SASS / SCSS', 'TypeScript', 'GatsbyJS', 'Jest', 'Build Tools', 'Photoshop / Sketch', 'Git', 'Jira / Confluence', 'MS Teams' ]} />
+          <List items={['HTML / CSS', 'JavaScript', 'ReactJS', 'ElectronJS', 'SASS / SCSS', 'TypeScript', 'GatsbyJS', 'Firebase/Firestore', 'MySQL', 'Jest', 'Build Tools', 'Photoshop / Sketch', 'Git', 'Jira / Confluence', 'MS Teams' ]} />
         </Section>
 
         <Section>
@@ -59,6 +59,10 @@ export default function Home() {
             Im Folgenden zeige ich eine Auswahl meiner aktuelleren Projekte. Diverse Projekte unterliegen einer Verschwiegenheitspflicht und können daher nur angeteasert werden.
           </TextContent>
           
+            <Project title='Card wall web app' types={['Entwicklung', '"Design"']} stack={['React', 'TypeScript', 'Firestore']} customer='-' image='card-wall.png' textRight={true}>
+              Zum Abschied für 2 Kollegen gebaut können Benutzer kleine verschiebbare Karten mit einer persönlichen Nachricht anlegen. Die Positionierung der Karten wird in Firestore gespeichert und für alle aktiven Nutzer geupdated. Das Projekt wird in Kürze auch in sauberer Fassung als open source Projekt bereitstehen.
+            </Project>
+            
             <Project title='Interaktive App für Messe Exponat' types={['Entwicklung']} stack={['React', 'Electron', 'HTML / SASS']} customer='Bosch' image='bosch-exhibit.png'>
               Diese App zeigt Messebesuchern Informationen zu diversen Antriebsarten der Zukunft. Die Besonderheit der App ist die Steuerung über Tokens: auf einem liegenden 55" Touchscreen werden sie als Steuerungsobjekte platziert. Ein Token wird dabei ausschließlich für die Menüsteuerung genutzt und sechs weitere Tokens dienen zur Navigation durch spezifische Inhalte.
             </Project>
