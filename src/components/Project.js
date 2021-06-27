@@ -22,7 +22,7 @@ const ExternalLink = styled.a`
     
 `;
 
-export default function Project({title, types, stack, customer, children, image, textRight, link, animationStartFrom, github, detailPage, video}) {
+export default function Project({title, types, stack, customer, content, image, textRight, link, animationStartFrom, github, detailPage, video}) {
     const inputEl = useRef(null);
     const animationDirection = animateInView(inputEl, animationStartFrom, '.2');    
 
@@ -62,7 +62,7 @@ export default function Project({title, types, stack, customer, children, image,
                     <div className='w-1/3'>{customer}</div>
                 </div>
                 <div className='leading-8'>
-                    <p>{children}</p>
+                    <p dangerouslySetInnerHTML={{__html: content}}></p>
                 </div>
                 {detailPage &&
                     <Link className='my-8 inline-flex text-orange-600 border-bottom-hover items-center' to={detailPage}>
