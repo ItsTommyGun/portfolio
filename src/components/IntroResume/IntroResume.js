@@ -7,11 +7,9 @@ export default function IntroResume() {
   return (
     <Section classes='flex flex-wrap'>
       <div className='lg:w-1/2 text-md py-6 leading-8'>
-        <p>Ich bin erfahren in der agilen Entwicklung von Projekten aller Art und bin überzeugt, dass Projekte nur mit einem starken Team und Teamzusammenhalt ordentlich umgesetzt werden können.<br/><br/></p>
+        <p>Ich bin erfahren in der <strong>agilen Entwicklung</strong> von Projekten aller Art und bin überzeugt, dass Projekte nur mit einem <strong>starken Team</strong> und Teamzusammenhalt ordentlich umgesetzt werden können.<br/><br/></p>
 
         <p>
-          {/* Seit <strong>über 3 Jahren</strong> als Festangestellter in einer Agentur ist mir neben den Projekten auch das <strong>Zwischenmenschliche</strong> wichtig: ich <strong>organisiere</strong> dort Sportgruppen, bin Teil einer <strong>sozial engagierten Gruppe</strong> (Planung verschiedener Spendenaktionen) und veranstalte regelmäßig <strong>(Video-)Spiel-Abende mit den Kollegen</strong>.<br /> <br /> */}
-          {/* Abseits der Arbeit bin ich für ein Bier am Abend genauso wie für einen Brunch am Sonntag Morgen zu haben. Zudem reise ich gerne. */}
           Persönlich treffe ich mich immer gern auf ein Bierchen zum Quatschen, zum Kicken oder Videogames spielen. Am Wochenende verbringe ich am liebsten Zeit mit Freunden oder lehne mich etwas zurück.<br /><br />
           Daneben ist Reisen sicher eines der wichtigeren Hobbies. Nach mehreren Zielen in Nordamerika, Lateinamerika und Europa wird hoffentlich auch bald Asien &mdash; in erster Linie Japan &mdash; dran sein. Konnichi wa!
         </p>
