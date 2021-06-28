@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import animateInView from '../helpers/helpers';
+import animateInView from '../../helpers/helpers';
 
-import Xing from '../../static/icons/xing.svg'
-import Linked from '../../static/icons/linkedin.svg'
-import Stack from '../../static/icons/stack-overflow.svg'
-import EMail from '../../static/icons/mail.svg'
+import Xing from '../../../static/icons/xing.svg'
+import Linked from '../../../static/icons/linkedin.svg'
+import Stack from '../../../static/icons/stack-overflow.svg'
+import EMail from '../../../static/icons/mail.svg'
 
 export default function Contact({ text, animationStartFrom}) {
     const inputEl = useRef(null);

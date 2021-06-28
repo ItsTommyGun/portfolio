@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
-import animateInView from '../helpers/helpers';
-import ContactIcons from '../components/ContactIcons'
+import animateInView from '../../helpers/helpers';
+import ContactIcons from './ContactIcons'
 
 export default function Contact({ animationStartFrom }) {
-    const inputEl = useRef(null);
-    const animationDirection = animateInView(inputEl, animationStartFrom, '.2');
- 
+  const inputEl = useRef(null);
+  const animationDirection = animateInView(inputEl, animationStartFrom, '.2');
+
     return (
         <div className='mb-10 flex flex-col xl:flex-row mx-auto sm:px-10 xl:p-0' ref={inputEl}>
           <div className='xl:w-1/3 xl:mx-16 mb-12 xl:mb-0 mt-10 xl:mt-32 text-center xl:text-left opacity-0 fadeIn--from-left fadeIn--delay-300'>

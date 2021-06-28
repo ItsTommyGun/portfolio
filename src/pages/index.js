@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
 import { Helmet } from "react-helmet"
 import '../css/global.scss'
-import TextContent from '../components/TextContent'
-import List from '../components/List'
-import Welcome from '../components/Welcome'
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import Future from '../components/Future/Future'
+import Welcome from '../components/WelcomeArea/Welcome'
+import Contact from '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
 import Section from '../components/Section'
 
 import IntroText from '../components/IntroText/IntroText'
@@ -36,12 +35,7 @@ export default function Home() {
 
         <Projects />
 
-        <Section>
-          <TextContent headline='Zukunft'>
-            So wichtig es auch sein mag, sich auf bestimmte Technologien zu fokussieren, so wichtig ist es auch spannende, neue Entwicklungen zu verfolgen. Hier ist eine Auswahl der Themen, die mich interessieren.
-          </TextContent>
-          <List items={['Snowpack', 'Vue3', 'Svelte', 'Firebase', 'GraphQL']} />
-        </Section>
+        <Future />
       </div>
 
       <Section last='true'>

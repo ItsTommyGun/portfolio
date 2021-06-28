@@ -1,5 +1,5 @@
 import React, { useRef } from "react"
-import animateInView from "../helpers/helpers"
+import animateInView from "../../helpers/helpers"
 
 export default function Welcome({ animationStartFrom }) {
   const inputEl = useRef(null)

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby-plugin-modal-routing'
-import ExternalLinkIcon from '../../static/icons/external-link.svg'
+import ExternalLinkIcon from '../../../static/icons/external-link.svg'
 
 export default function Footer(){
 
