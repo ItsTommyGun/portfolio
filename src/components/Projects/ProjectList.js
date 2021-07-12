@@ -9,8 +9,7 @@ export const ProjectList = [
     content: `Zum Abschied für 2 Kollegen gebaut können Benutzer kleine verschiebbare
       Karten mit einer persönlichen Nachricht anlegen. Die Positionierung der
       Karten wird in Firestore gespeichert und für alle aktiven Nutzer
-      geupdated. Das Projekt wird in Kürze auch in sauberer Fassung als open
-      source Projekt bereitstehen.`,
+      geupdated.`,
   },
   {
     title: "Interaktive App für Messe Exponat",
