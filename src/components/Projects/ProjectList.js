@@ -49,11 +49,10 @@ export const ProjectList = [
     customer: "Restaurant Picknick",
     image: "picknick.png",
     link: "https://mypicknick.it/menu.php",
-    content: `Zum Abschied für 2 Kollegen gebaut können Benutzer kleine verschiebbare
-      Karten mit einer persönlichen Nachricht anlegen. Die Positionierung der
-      Karten wird in Firestore gespeichert und für alle aktiven Nutzer
-      geupdated. Das Projekt wird in Kürze auch in sauberer Fassung als open
-      source Projekt bereitstehen.`,
+    content: `Als privates Projekt habe ich für einen Freund die Speisekarte seines
+    Restaurants im Back- sowie Frontend umgesetzt. Da die Auswahl der Speisen sich
+    täglich ändert können im Backend vordefinierte Gerichte de- oder aktiviert werden.
+    Zusätzlich werden verschiedene Sprachen unterstützt.`,
   },
   {
     title: "Component Library mit Storybook",
@@ -79,4 +78,4 @@ export const ProjectList = [
   },
 ]
 
-export default ProjectList;
+export default ProjectList
