@@ -5,10 +5,13 @@ export const ProjectList = [
     stack: ["React", "node.js", "Express", "JWT", ],
     customer: "-",
     video: "blog-video-white.mp4",
+    link: "https://tommycodes-blog.herokuapp.com/",
+    github: "https://github.com/ItsTommyGun/blog-api",
     content: `Zur persönlichen Weiterentwicklung habe ich diese Web App entwickelt,
     welche mit node.js und React umgesetzt wurde. Sie beinhaltet ein kleines noch unausgereiftes Blog-Modul,
     potenziellen User Rollen für Zugriffsberechtigungen und nutzt JSON Web Token für Authentifizierung und Autorisierung.
     Die App ist deployed auf Heroku und wird automatisch deployed über GitHub.`,
+
   },
   {
     title: "Card wall web app",

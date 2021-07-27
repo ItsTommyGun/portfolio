@@ -24,6 +24,7 @@ export default function IntroText() {
             video={project.video}
             textRight={project.textRight}
             link={project.link}
+            github={project.github}
             content={project.content}
             key={project.title}
           />

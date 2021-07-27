@@ -71,7 +71,7 @@ export default function Project({title, types, stack, customer, content, image, 
                     </Link>
                 }
                 {github &&
-                    <div className='my-8'>
+                    <div className='my-8 mr-6 inline-block'>
                         <ExternalLink href={github} rel='noreferrer' target='_blank' className='inline-flex text-orange-600 border-bottom-hover items-center'>
                             <div className='mr-2'>Code auf Github</div>
                             <ExternalLinkIcon className='fill-current w-4 h-4' />
@@ -79,7 +79,7 @@ export default function Project({title, types, stack, customer, content, image, 
                     </div>
                 }
                 {link &&
-                    <div className='my-8'>
+                    <div className='my-8 inline-block'>
                         <ExternalLink href={link} rel='noreferrer' target='_blank' className='inline-flex text-orange-600 border-bottom-hover items-center'>
                             <div className='mr-2'>Live</div>
                             <ExternalLinkIcon className='fill-current w-4 h-4' />
