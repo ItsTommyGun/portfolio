@@ -1,5 +1,19 @@
 export const ProjectList = [
   {
+    title: "Austausch Plattform für Apotheken und Praxen",
+    types: ["Entwicklung", "Konzeption", "Design"],
+    stack: ["React", "Node + Express", "JWT", "Server Setup"],
+    customer: "Combimed",
+    image: "pharmacy.png",
+    textRight: true,
+    content: `Für eine Apothekenkette habe ich eine Software zum Austauschen und Abstimmen
+    von Behandlungsdetails gestalten, konzipieren und entwickeln dürfen. Die Software besitzt dabei diverse
+    individuelle Features, bspw. Verarbeitung von CSV Dateien und speichern der Daten für bestimmte Tage und Praxen,
+    entsprechende Filterung der Behandlungen nach Praxis und Tag, eine Kommentarfunktion, einen Freigabeprozess für 
+    einzelne Behandlungen und mehr.<br /> Ein für mich auch spannender Part war das komplette Setup des Servers,
+    vom Installieren von Apache und SSL Zertifikat über Port forwarding bis hin zu App Deployment.`,
+  },
+  {
     title: "Blog Web App",
     types: ["Entwicklung", "Konzeption"],
     stack: ["React + TypeScript", "node.js", "Express", "JWT", ],

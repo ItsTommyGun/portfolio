@@ -18,11 +18,11 @@ export default function Imprint() {
 
       <h2 className='my-4'>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
       <p>Thomas Fischer<br />
-      Hohensteinstraße 14<br />
-      70435 Stuttgart</p>
+      Uferstraße 10<br />
+      69151 Neckargemünd</p>
 
       <h2>Kontakt</h2>
-      <p>E-Mail: thomasfischer1337@gmail.com</p>
+      <p>E-Mail: thomas@tommycodes.de</p>
 
       <h3>Haftung f&uuml;r Inhalte</h3>
       <p>Als Webseitenbetreiber bin ich gem&auml;&szlig; &sect; 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG bin ich als Webseitenbetreiber jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.</p> <p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werde ich diese Inhalte umgehend entfernen.</p>

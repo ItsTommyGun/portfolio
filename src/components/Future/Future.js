@@ -3,13 +3,13 @@ import Section from '../Section'
 import TextContent from '../TextContent'
 import List from '../List'
 
-export default function Future() {
+export default function Addendum() {
     return (
         <Section>
-          <TextContent headline='Zukunft'>
-            So wichtig es auch sein mag, sich auf bestimmte Technologien zu fokussieren, so wichtig ist es auch spannende, neue Entwicklungen zu verfolgen. Hier ist eine Auswahl der Themen, die mich interessieren.
+          <TextContent headline='Außerdem...'>
+            Nebenher suche ich hier und da nach neuen Hobbies oder probiere neue Technologien aus. Hier ein paar Dinge, mit denen ich mich aktuell beschäftige:
           </TextContent>
-          <List items={['Snowpack', 'Vue3', 'Svelte', 'Angular']} />
+          <List items={['Blog schreiben', 'Meetup für Frontend Developers', 'Remix testen', 'Svelte testen']} />
         </Section>
     )
 }

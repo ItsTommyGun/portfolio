@@ -13,7 +13,7 @@ export default function Footer(){
                         Eva Maria Janson
                         <ExternalLinkIcon className='fill-current w-3 h-3 inline-block ml-1 align-baseline' />
                     </a>
-                    <Link to='imprint' className='ml-10 text-orange-600'>Impressum / Haftung</Link>
+                    <Link to='legalnotice' className='ml-10 text-orange-600'>Impressum / Haftung</Link>
                 </div>
             </div>
         </div>

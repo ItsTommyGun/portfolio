@@ -15,7 +15,7 @@ export default function Welcome({ animationStartFrom }) {
           <source srcSet="./images/THOMI-2.jpg" media="(min-width: 1280px)" />
           <img
             src="./images/THOMI-2-m.jpg"
-            alt="Thomas Fischer - Webentwickler aus Stuttgart"
+            alt="Thomas Fischer - Webentwickler aus Heidelberg"
             className="max-h-screen m-auto"
             loading="lazy"
           />
@@ -29,7 +29,7 @@ export default function Welcome({ animationStartFrom }) {
         <div
           className={`lg:text-4xl text-2xl leading-tight lg:leading-normal mt-4 lg:mt-12`}
         >
-          Webentwickler aus Stuttgart
+          Webentwickler aus Heidelberg
         </div>
       </div>
     </div>

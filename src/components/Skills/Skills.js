@@ -9,25 +9,25 @@ export default function IntroText() {
       <TextContent headline="Fähigkeiten">
         Durch spannende Projekte sowohl privat als auch beruflich konnte ich mir
         umfassendes Wissen in unterschiedlichen Bereichen des Web Developments
-        aneignen. Diese reichen von den grundlegenden Technologien wie HTML, CSS
-        und JavaScript bis hin zu modernen Frameworks und Libraries wie React,
-        TypeScript oder GatsbyJS.
+        aneignen. Zuletzt habe ich vor allem mit React, MongoDB, Node.js, Express.js und React Native gearbeitet.
       </TextContent>
       <List
         items={[
-          "HTML / CSS",
           "JavaScript",
-          "ReactJS",
-          "ElectronJS",
-          "SASS / SCSS",
+          "React",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
           "TypeScript",
+          "Electron",
+          "HTML / CSS",
+          "SASS / SCSS",
           "GatsbyJS",
           "Firebase/Firestore",
           "MySQL",
-          "MongoDB",
           "Mocha / Chai Testing",
           "Build Tools",
-          "Photoshop / Sketch",
+          "Photoshop / Sketch / Figma",
           "Git",
           "Jira / Confluence",
           "MS Teams / Slack",
