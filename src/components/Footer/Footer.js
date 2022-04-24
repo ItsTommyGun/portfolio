@@ -7,7 +7,7 @@ export default function Footer(){
     return (
         <div className='bg-black text-white w-full py-10'>
             <div className='lg:container m-auto flex justify-between px-10 xl:px-0'>
-                <div>&copy; 2020 Thomas Fischer</div>
+                <div>&copy; {new Date().getFullYear()} Thomas Fischer</div>
                 <div>
                     Fotos von <a href='https://www.evamariajanson.com/' target='_blank' className='text-orange-600'>
                         Eva Maria Janson
