@@ -1,47 +1,22 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "portfolio-vue",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop -o",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby build && gatsby serve -o",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "format": "prettier --write \"**/*.{js,vue,css,scss,json,md}\""
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^1.11.1",
-    "gatsby": "^2.24.73",
-    "gatsby-plugin-modal-routing": "^1.2.0",
-    "gatsby-plugin-postcss": "^2.3.12",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-react-svg": "^3.0.0",
-    "gatsby-plugin-sass": "^2.3.13",
-    "gatsby-plugin-styled-components": "^3.3.14",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0",
-    "styled-components": "^5.2.0",
-    "waypoints": "^4.0.1"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "prettier": "2.1.1",
-    "sass": "^1.35.1",
-    "tailwindcss": "^1.8.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "resolutions": {
-    "styled-components": "^5"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^9.27.0",
+    "prettier": "^3.4.2",
+    "sass": "^1.89.0",
+    "vite": "^6.0.0"
   }
 }

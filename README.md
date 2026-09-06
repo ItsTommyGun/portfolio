@@ -1,5 +1,5 @@
 ## Personal Portfolio Project
-My portfolio based on Gatsby, React, TailwindCSS and styled-components.
+My portfolio is now built with Vue 3 and Vite, using a simpler stack and cleaner front-end tooling.
 
 ## Installation / Usage
 
@@ -7,13 +7,17 @@ My portfolio based on Gatsby, React, TailwindCSS and styled-components.
 npm install
 ```
 
-## Usage
+## Development
 
 ```bash
-npm run start
+npm run dev
 ```
 
-To get stuff live: open a PR on develop; after it got merged it will be included in the next release.
+## Production Build
+
+```bash
+npm run build
+```
 
 ## License
 
